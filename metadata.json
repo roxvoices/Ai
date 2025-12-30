@@ -1,0 +1,7 @@
+{
+  "name": "Rox Voices",
+  "description": "Professional AI voice engine for creators. Generate studio-quality speech and architect custom vocal profiles using advanced prompt engineering.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
