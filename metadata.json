@@ -1,0 +1,7 @@
+{
+  "name": "Rox Studio",
+  "description": "Professional AI voice engine with secure manual payment processing and cloud-synced library.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

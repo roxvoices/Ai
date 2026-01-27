@@ -1,0 +1,14 @@
+
+[build]
+  command = "npm install && npm run build"
+  publish = "dist" # Adjust if your build output directory is different
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Netlify Function deployment settings (if applicable)
+[functions]
+  node_bundler = "esbuild"
+  directory = "netlify/functions" # This is where Netlify will look for your serverless functions
